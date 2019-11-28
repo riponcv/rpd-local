@@ -1,0 +1,184 @@
+body{
+margin:0px;
+padding:0px;
+}
+#divwrapper {
+margin:0 auto;
+padding:0px;
+	width:100%;
+	height:100%;
+	border:1px solid #0000FF;
+
+}
+
+#dvtop {
+	position:relative;
+	width:100%;
+	height:20%;
+	border-bottom:solid #00DFAA 1px;
+
+	}
+
+#dvleft {
+	width:15%;
+	height:70%;
+	float:left;
+
+	}
+#dvright {
+	width:15%;
+	height:70%;
+	float:right;
+
+}
+#dvcontent {
+	width:70%;
+	height:70%;
+	float:left;
+}
+#dvcontent_dataentry
+{
+	width:85%;
+	height:70%;
+	float:left;
+}
+
+#dvfooter {
+	width:100%;
+	height:10%;
+	border-top: solid #00DFAA 1px;
+	float:inherit;
+}
+#clear{
+clear:both;
+}
+
+#error{color:#FF0000;
+		margin-left:1px;
+		text-align:center;
+		line-height:8px;}
+
+
+
+
+		label {display: block;}
+
+/******* style for deposit table************************/
+		#tbldesgTarget td,th{padding:5px;}
+		#tbldesgTarget td{background-color:#8FCAED;}
+		#tbldesgTarget th{background-color:#2E78C2;color:#FFFFFF;}
+		#depmod legend{font-size:17px;text-align:left;font-weight:bold;}
+		#depmod h3{font-size:30px;}
+		fieldset{margin:0 auto;}
+
+		#logout{margin-left:900px;}
+
+
+
+
+
+
+		/******************* left menu styling*********/
+
+
+ul#leftmenu
+{
+font-size:13px;
+font-family:Arial, Helvetica, sans-serif;
+list-style-type:none;
+margin:10px 0 0 0px;
+padding:10px;
+overflow:hidden;
+}
+ul#leftmenu li
+{
+
+}
+ul#leftmenu a:link, ul#leftmenu a:visited
+{
+display:block;
+/*width:250px;*/
+font-weight:bold;
+color:#006699;
+
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+ul#leftmenu a:hover,ul#leftmenu a:active
+{
+background-color:#7A991A;
+color:#FFFFFF;
+}
+table#top{ background-image:url(../img/bgtop.png);background-repeat:repeat-x;}
+
+#header {height:110px;; width:100%;background-image:url(../img/bgtop.png);background-repeat:repeat-x;}
+
+#header .left {float:left;width:30%;margin-top:10px;padding-top:20px;position:relative;left:10px;}
+#header .mid {float:left;width:50%; min-width:500px;}
+#header .mid img{margin-top:10px;padding-top:20px;}
+#header .mid h1{margin-top:-70px;margin-left: 110px;padding:0;}
+#header .mid p{margin-top:-25px;margin-left:110px;padding:0;}
+#header .right {float:right;width:20%;margin-top:10px;padding-top:20px;}
+#header{ background-image:url(../img/bgtop.png);background-repeat:repeat-x;}
+#clear{clear:both;}
+/*ISS style start*/
+
+.deptt_table a {
+    /*background: #fe8f4a none repeat scroll 0 0;*/
+    color: #333;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.deptt_table a:hover {
+	 background: #93c041 none repeat scroll 0 0;
+	 color: #333;
+}
+.deptt_table tr {
+    text-align: left;
+}
+.deptt_table > table {
+    font-size: 20px;
+}
+
+.deptt_table th {
+    background: #a1c3aa none repeat scroll 0 0;
+    padding: 7px;
+}
+
+.selectParent{
+    width:200px;
+    overflow:hidden;
+}
+.selectParent select{
+-moz-appearance: none;
+background: transparent none repeat scroll 0 0;
+border: medium none;
+color: #333;
+font-weight: 700;
+padding: 2px;
+text-align: center;
+width: 200px;
+font-size: 14px;
+}
+.inputName {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.form-inline .form-group {
+
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+/*ISS style end*/
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 Vertical Form Layout</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.22.0/slimselect.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.22.0/slimselect.min.css" rel="stylesheet"></link>
+
+</head>
+<body>
+
+<div class="ui hidden divider"></div>
+<div class="ui stackable grid container">
+  <div class="eight wide column">
+    <form class="ui form" method="post">
+      <div class="field  ">
+        <label class="" for="id_members">Members</label>
+        <select multiple="multiple" class="ui fluid search dropdown" id="members_dropdown" multiple="" name="members">
+    <option value="Md. Rezaul Karim">(209) Md. Rezaul Karim</option>
+	<option value="Md. Abdur Rahim">(224) Md. Abdur Rahim</option>
+	<option value="226S.M. Abu Daud">(226) S.M. Abu Daud</option>
+	<option value="231">(231) SK SHAMIM HOSSAIN</option>
+	<option value="233">(233)Sk Shamim Hossain</option>
+	
+    
+</select>
+      </div>
+
+      <p>
+    </form>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+
+    <select class="mdb-select colorful-select dropdown-primary md-form" multiple id="slim-select" searchable="Search here..">
+      <option value="" disabled selected>Choose your country</option>
+      <option value="Md. Rezaul Karim">(209) Md. Rezaul Karim</option>
+	<option value="Md. Abdur Rahim">(224) Md. Abdur Rahim</option>
+	<option value="226S.M. Abu Daud">(226) S.M. Abu Daud</option>
+	<option value="231">(231) SK SHAMIM HOSSAIN</option>
+	<option value="233">(233)Sk Shamim Hossain</option>
+    </select>
+    <label class="mdb-main-label">Label example</label>
+    <button class="btn-save btn btn-primary btn-sm">Save</button>
+
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
+<script>
+new SlimSelect({
+  select: '#slim-select'
+})
+
+
+
+</script>
+</body>
+</html>                            
